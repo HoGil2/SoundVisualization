@@ -10,14 +10,19 @@ class OdasHandler(private val socket: Socket?) {
     lateinit var writer: OutputStream
     var running = false
 
-    fun run() {
+    suspend fun run() {
         if (socket == null) {
             return
         }
         Log.d("OdasHandler", "Odas Handler run.")
+
+        getDataFromSocket()
+    }
+
+    private fun getDataFromSocket() {
         running = true
-        reader = Scanner(socket.getInputStream())
-        //writer = socket.getOutputStream()
+
+        reader = Scanner(socket?.getInputStream())
 
         while (running) {
             try {

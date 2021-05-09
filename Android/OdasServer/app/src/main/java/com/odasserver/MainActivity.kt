@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.launch
@@ -30,9 +31,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun serverStart() {
-        CoroutineScope(Main).launch {
+        CoroutineScope(IO).launch {
             val odasServer = OdasServer(9000)
             println("Odas Server Started IP: ${odasServer.getIpAddress().toString()}")
+
             odasServer.run()
         }
     }

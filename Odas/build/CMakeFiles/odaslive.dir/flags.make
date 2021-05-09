@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/odas/odas/include -I/home/odas/odas/include/odas 
+C_INCLUDES = -I/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/include -I/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/include/odas 
 

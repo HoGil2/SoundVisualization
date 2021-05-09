@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odas/odas
+CMAKE_SOURCE_DIR = /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odas/odas/build
+CMAKE_BINARY_DIR = /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build
 
 # Utility rule file for odas_headers.
 
@@ -63,10 +63,10 @@ include/CMakeFiles/odas_headers.dir/build: odas_headers
 .PHONY : include/CMakeFiles/odas_headers.dir/build
 
 include/CMakeFiles/odas_headers.dir/clean:
-	cd /home/odas/odas/build/include && $(CMAKE_COMMAND) -P CMakeFiles/odas_headers.dir/cmake_clean.cmake
+	cd /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/include && $(CMAKE_COMMAND) -P CMakeFiles/odas_headers.dir/cmake_clean.cmake
 .PHONY : include/CMakeFiles/odas_headers.dir/clean
 
 include/CMakeFiles/odas_headers.dir/depend:
-	cd /home/odas/odas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odas/odas /home/odas/odas/include /home/odas/odas/build /home/odas/odas/build/include /home/odas/odas/build/include/CMakeFiles/odas_headers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/include /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/include /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/include/CMakeFiles/odas_headers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : include/CMakeFiles/odas_headers.dir/depend
 

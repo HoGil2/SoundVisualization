@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odas/odas
+CMAKE_SOURCE_DIR = /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odas/odas/build
+CMAKE_BINARY_DIR = /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/odaslive.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/odaslive.dir/flags.make
 
 CMakeFiles/odaslive.dir/demo/odaslive/main.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/main.o: ../demo/odaslive/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/odas/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/main.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/main.o   -c /home/odas/odas/demo/odaslive/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/main.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/main.o   -c /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/main.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/main.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/odas/odas/demo/odaslive/main.c > CMakeFiles/odaslive.dir/demo/odaslive/main.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/main.c > CMakeFiles/odaslive.dir/demo/odaslive/main.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/main.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/odas/odas/demo/odaslive/main.c -o CMakeFiles/odaslive.dir/demo/odaslive/main.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/main.c -o CMakeFiles/odaslive.dir/demo/odaslive/main.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/main.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/odaslive.dir/demo/odaslive/main.o.provides.build: CMakeFiles/odaslive
 
 CMakeFiles/odaslive.dir/demo/odaslive/configs.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/configs.o: ../demo/odaslive/configs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/odas/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/configs.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/configs.o   -c /home/odas/odas/demo/odaslive/configs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/configs.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/configs.o   -c /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/configs.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/configs.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/configs.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/odas/odas/demo/odaslive/configs.c > CMakeFiles/odaslive.dir/demo/odaslive/configs.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/configs.c > CMakeFiles/odaslive.dir/demo/odaslive/configs.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/configs.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/configs.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/odas/odas/demo/odaslive/configs.c -o CMakeFiles/odaslive.dir/demo/odaslive/configs.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/configs.c -o CMakeFiles/odaslive.dir/demo/odaslive/configs.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/configs.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/odaslive.dir/demo/odaslive/configs.o.provides.build: CMakeFiles/odasl
 
 CMakeFiles/odaslive.dir/demo/odaslive/objects.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/objects.o: ../demo/odaslive/objects.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/odas/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/objects.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/objects.o   -c /home/odas/odas/demo/odaslive/objects.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/objects.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/objects.o   -c /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/objects.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/objects.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/objects.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/odas/odas/demo/odaslive/objects.c > CMakeFiles/odaslive.dir/demo/odaslive/objects.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/objects.c > CMakeFiles/odaslive.dir/demo/odaslive/objects.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/objects.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/objects.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/odas/odas/demo/odaslive/objects.c -o CMakeFiles/odaslive.dir/demo/odaslive/objects.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/objects.c -o CMakeFiles/odaslive.dir/demo/odaslive/objects.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/objects.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/odaslive.dir/demo/odaslive/objects.o.provides.build: CMakeFiles/odasl
 
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.o: ../demo/odaslive/parameters.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/odas/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/parameters.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/parameters.o   -c /home/odas/odas/demo/odaslive/parameters.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/parameters.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/parameters.o   -c /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/parameters.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/parameters.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/odas/odas/demo/odaslive/parameters.c > CMakeFiles/odaslive.dir/demo/odaslive/parameters.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/parameters.c > CMakeFiles/odaslive.dir/demo/odaslive/parameters.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/parameters.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/odas/odas/demo/odaslive/parameters.c -o CMakeFiles/odaslive.dir/demo/odaslive/parameters.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/parameters.c -o CMakeFiles/odaslive.dir/demo/odaslive/parameters.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/odaslive.dir/demo/odaslive/parameters.o.provides.build: CMakeFiles/od
 
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.o: ../demo/odaslive/profiler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/odas/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/profiler.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/profiler.o   -c /home/odas/odas/demo/odaslive/profiler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/profiler.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/profiler.o   -c /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/profiler.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/profiler.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/odas/odas/demo/odaslive/profiler.c > CMakeFiles/odaslive.dir/demo/odaslive/profiler.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/profiler.c > CMakeFiles/odaslive.dir/demo/odaslive/profiler.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/profiler.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/odas/odas/demo/odaslive/profiler.c -o CMakeFiles/odaslive.dir/demo/odaslive/profiler.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/profiler.c -o CMakeFiles/odaslive.dir/demo/odaslive/profiler.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/odaslive.dir/demo/odaslive/profiler.o.provides.build: CMakeFiles/odas
 
 CMakeFiles/odaslive.dir/demo/odaslive/threads.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/threads.o: ../demo/odaslive/threads.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/odas/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/threads.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/threads.o   -c /home/odas/odas/demo/odaslive/threads.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/threads.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/threads.o   -c /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/threads.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/threads.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/threads.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/odas/odas/demo/odaslive/threads.c > CMakeFiles/odaslive.dir/demo/odaslive/threads.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/threads.c > CMakeFiles/odaslive.dir/demo/odaslive/threads.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/threads.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/threads.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/odas/odas/demo/odaslive/threads.c -o CMakeFiles/odaslive.dir/demo/odaslive/threads.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/demo/odaslive/threads.c -o CMakeFiles/odaslive.dir/demo/odaslive/threads.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/threads.o.requires:
 
@@ -222,7 +222,7 @@ odaslive_EXTERNAL_OBJECTS =
 ../bin/odaslive: CMakeFiles/odaslive.dir/build.make
 ../bin/odaslive: ../lib/libodas.so
 ../bin/odaslive: CMakeFiles/odaslive.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/odas/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ../bin/odaslive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ../bin/odaslive"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/odaslive.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -244,6 +244,6 @@ CMakeFiles/odaslive.dir/clean:
 .PHONY : CMakeFiles/odaslive.dir/clean
 
 CMakeFiles/odaslive.dir/depend:
-	cd /home/odas/odas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odas/odas /home/odas/odas /home/odas/odas/build /home/odas/odas/build /home/odas/odas/build/CMakeFiles/odaslive.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/CMakeFiles/odaslive.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/odaslive.dir/depend
 

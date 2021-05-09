@@ -1,4 +1,4 @@
-# Install script for directory: /home/odas/odas
+# Install script for directory: /mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libodas.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/odas/odas/lib/libodas.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/lib/libodas.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libodas.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libodas.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -55,7 +55,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/odas/odas/build/include/cmake_install.cmake")
+  include("/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/include/cmake_install.cmake")
 
 endif()
 
@@ -67,5 +67,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/odas/odas/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/rlf03/Documents/2021_probono/GitHub/SoundVisualization/Odas/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
