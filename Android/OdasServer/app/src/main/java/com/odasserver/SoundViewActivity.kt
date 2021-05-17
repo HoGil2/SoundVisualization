@@ -13,6 +13,7 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.view.PreviewView
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import org.opencv.android.OpenCVLoader
 import java.util.concurrent.ExecutorService
 
 class SoundViewActivity: AppCompatActivity() {
@@ -23,6 +24,9 @@ class SoundViewActivity: AppCompatActivity() {
         // Request camera permissions
         if (allPermissionsGranted()) {
             startCamera()
+
+            val openCVManager = OpenCVManager()
+            openCVManager.bitmapToGray()
         } else {
             ActivityCompat.requestPermissions(this,
                 REQUIRED_PERMISSIONS, REQUEST_CODE_PERMISSIONS)
